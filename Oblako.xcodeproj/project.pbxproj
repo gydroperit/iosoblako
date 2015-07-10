@@ -13,6 +13,11 @@
 		840591D61B503405007BF110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840591D51B503405007BF110 /* Images.xcassets */; };
 		840591D91B503405007BF110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840591D71B503405007BF110 /* LaunchScreen.xib */; };
 		840591E51B503405007BF110 /* OblakoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840591E41B503405007BF110 /* OblakoTests.swift */; };
+		84365FDC1B50529B000817F2 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FD91B50529B000817F2 /* OpenSans-Light.ttf */; };
+		84365FDD1B50529B000817F2 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */; };
+		84365FDE1B50529B000817F2 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */; };
+		84365FE01B505478000817F2 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84365FDF1B505478000817F2 /* TodoCell.swift */; };
+		84365FE41B505743000817F2 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84365FE21B505743000817F2 /* M13Checkbox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,13 @@
 		840591DE1B503405007BF110 /* OblakoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblakoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840591E31B503405007BF110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840591E41B503405007BF110 /* OblakoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OblakoTests.swift; sourceTree = "<group>"; };
+		84365FD91B50529B000817F2 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../Downloads/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../Downloads/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "../../../Downloads/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		84365FDF1B505478000817F2 /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		84365FE11B505743000817F2 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M13Checkbox.h; path = ../../../Downloads/M13Checkbox.h; sourceTree = "<group>"; };
+		84365FE21B505743000817F2 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13Checkbox.m; path = ../../../Downloads/M13Checkbox.m; sourceTree = "<group>"; };
+		84365FE31B505743000817F2 /* otodoios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "otodoios-Bridging-Header.h"; path = "../../../Downloads/otodoios-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				840591CE1B503405007BF110 /* AppDelegate.swift */,
+				84365FE31B505743000817F2 /* otodoios-Bridging-Header.h */,
+				84365FE11B505743000817F2 /* M13Checkbox.h */,
+				84365FE21B505743000817F2 /* M13Checkbox.m */,
 				840591D01B503405007BF110 /* ViewController.swift */,
+				84365FDF1B505478000817F2 /* TodoCell.swift */,
 				840591D21B503405007BF110 /* Main.storyboard */,
 				840591D51B503405007BF110 /* Images.xcassets */,
 				840591D71B503405007BF110 /* LaunchScreen.xib */,
@@ -90,6 +106,9 @@
 		840591CC1B503405007BF110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84365FD91B50529B000817F2 /* OpenSans-Light.ttf */,
+				84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */,
+				84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */,
 				840591CD1B503405007BF110 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84365FDE1B50529B000817F2 /* OpenSans-Semibold.ttf in Resources */,
+				84365FDD1B50529B000817F2 /* OpenSans-Regular.ttf in Resources */,
 				840591D41B503405007BF110 /* Main.storyboard in Resources */,
 				840591D91B503405007BF110 /* LaunchScreen.xib in Resources */,
+				84365FDC1B50529B000817F2 /* OpenSans-Light.ttf in Resources */,
 				840591D61B503405007BF110 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84365FE41B505743000817F2 /* M13Checkbox.m in Sources */,
 				840591D11B503405007BF110 /* ViewController.swift in Sources */,
+				84365FE01B505478000817F2 /* TodoCell.swift in Sources */,
 				840591CF1B503405007BF110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +367,7 @@
 				INFOPLIST_FILE = Oblako/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Downloads/otodoios-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,6 +378,7 @@
 				INFOPLIST_FILE = Oblako/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Downloads/otodoios-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +435,7 @@
 				840591EA1B503405007BF110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840591EB1B503405007BF110 /* Build configuration list for PBXNativeTarget "OblakoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +444,7 @@
 				840591ED1B503405007BF110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
