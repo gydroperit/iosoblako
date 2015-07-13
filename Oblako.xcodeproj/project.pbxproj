@@ -10,21 +10,19 @@
 		12DFCD39A6AAB1CEC013384F /* Pods_Oblako.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E394DEAF1F5DE4A5908DC563 /* Pods_Oblako.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		840591CF1B503405007BF110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840591CE1B503405007BF110 /* AppDelegate.swift */; };
 		840591D11B503405007BF110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840591D01B503405007BF110 /* ViewController.swift */; };
-		840591D41B503405007BF110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840591D21B503405007BF110 /* Main.storyboard */; };
 		840591D61B503405007BF110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840591D51B503405007BF110 /* Images.xcassets */; };
-		840591D91B503405007BF110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840591D71B503405007BF110 /* LaunchScreen.xib */; };
 		840591E51B503405007BF110 /* OblakoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840591E41B503405007BF110 /* OblakoTests.swift */; };
-		84365FDC1B50529B000817F2 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FD91B50529B000817F2 /* OpenSans-Light.ttf */; };
-		84365FDD1B50529B000817F2 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */; };
-		84365FDE1B50529B000817F2 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */; };
 		84365FE01B505478000817F2 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84365FDF1B505478000817F2 /* TodoCell.swift */; };
-		84365FE41B505743000817F2 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84365FE21B505743000817F2 /* M13Checkbox.m */; };
-		84DC0C4D1B51929E001916FA /* addTodoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC0C4A1B51929E001916FA /* addTodoIcon.png */; };
-		84DC0C4E1B51929E001916FA /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC0C4B1B51929E001916FA /* backIcon.png */; };
-		84DC0C4F1B51929E001916FA /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC0C4C1B51929E001916FA /* done.png */; };
 		84E7A8BD1B52F3D400ED5703 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7A8BC1B52F3D400ED5703 /* Colors.swift */; };
-		84EA13AB1B526C50008493C4 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA13A91B526C50008493C4 /* ResponseCollectionSerializable.swift */; };
-		84EA13AC1B526C50008493C4 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */; };
+		84E7A8C71B53BAE300ED5703 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7A8BF1B53BAE300ED5703 /* M13Checkbox.m */; };
+		84E7A8C81B53BAE300ED5703 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E7A8C01B53BAE300ED5703 /* OpenSans-Light.ttf */; };
+		84E7A8C91B53BAE300ED5703 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E7A8C11B53BAE300ED5703 /* OpenSans-Regular.ttf */; };
+		84E7A8CA1B53BAE300ED5703 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E7A8C21B53BAE300ED5703 /* OpenSans-Semibold.ttf */; };
+		84E7A8CB1B53BAE300ED5703 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7A8C41B53BAE300ED5703 /* ResponseCollectionSerializable.swift */; };
+		84E7A8CC1B53BAE300ED5703 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7A8C51B53BAE300ED5703 /* ResponseObjectSerializable.swift */; };
+		84E7A8D11B53BB6F00ED5703 /* addTodoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E7A8CE1B53BB6F00ED5703 /* addTodoIcon.png */; };
+		84E7A8D21B53BB6F00ED5703 /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E7A8CF1B53BB6F00ED5703 /* backIcon.png */; };
+		84E7A8D31B53BB6F00ED5703 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E7A8D01B53BB6F00ED5703 /* done.png */; };
 		84EDE6F91B512DB70009B3C7 /* AddTodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */; };
 		84EDE6FB1B512F300009B3C7 /* NewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */; };
 		84EDE6FF1B5133040009B3C7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FE1B5133040009B3C7 /* Todo.swift */; };
@@ -52,19 +50,22 @@
 		840591DE1B503405007BF110 /* OblakoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblakoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840591E31B503405007BF110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840591E41B503405007BF110 /* OblakoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OblakoTests.swift; sourceTree = "<group>"; };
-		84365FD91B50529B000817F2 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../Downloads/OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../Downloads/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "../../../Downloads/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		84365FDF1B505478000817F2 /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
-		84365FE11B505743000817F2 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M13Checkbox.h; path = ../../../Downloads/M13Checkbox.h; sourceTree = "<group>"; };
-		84365FE21B505743000817F2 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13Checkbox.m; path = ../../../Downloads/M13Checkbox.m; sourceTree = "<group>"; };
-		84365FE31B505743000817F2 /* otodoios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "otodoios-Bridging-Header.h"; path = "../../../Downloads/otodoios-Bridging-Header.h"; sourceTree = "<group>"; };
 		84DC0C4A1B51929E001916FA /* addTodoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addTodoIcon.png; path = ../../../Downloads/todoimages/addTodoIcon.png; sourceTree = "<group>"; };
 		84DC0C4B1B51929E001916FA /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backIcon.png; path = ../../../Downloads/todoimages/backIcon.png; sourceTree = "<group>"; };
 		84DC0C4C1B51929E001916FA /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done.png; path = ../../../Downloads/todoimages/done.png; sourceTree = "<group>"; };
 		84E7A8BC1B52F3D400ED5703 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		84EA13A91B526C50008493C4 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseCollectionSerializable.swift; path = ../../../Downloads/ResponseCollectionSerializable.swift; sourceTree = "<group>"; };
-		84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseObjectSerializable.swift; path = ../../../Downloads/ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		84E7A8BE1B53BAE300ED5703 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
+		84E7A8BF1B53BAE300ED5703 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
+		84E7A8C01B53BAE300ED5703 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		84E7A8C11B53BAE300ED5703 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		84E7A8C21B53BAE300ED5703 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		84E7A8C31B53BAE300ED5703 /* otodoios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "otodoios-Bridging-Header.h"; sourceTree = "<group>"; };
+		84E7A8C41B53BAE300ED5703 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCollectionSerializable.swift; sourceTree = "<group>"; };
+		84E7A8C51B53BAE300ED5703 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		84E7A8CE1B53BB6F00ED5703 /* addTodoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addTodoIcon.png; sourceTree = "<group>"; };
+		84E7A8CF1B53BB6F00ED5703 /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backIcon.png; sourceTree = "<group>"; };
+		84E7A8D01B53BB6F00ED5703 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
 		84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoController.swift; sourceTree = "<group>"; };
 		84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskCell.swift; sourceTree = "<group>"; };
 		84EDE6FE1B5133040009B3C7 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
@@ -133,12 +134,7 @@
 		840591CB1B503405007BF110 /* Oblako */ = {
 			isa = PBXGroup;
 			children = (
-				84EA13A91B526C50008493C4 /* ResponseCollectionSerializable.swift */,
-				84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */,
 				840591CE1B503405007BF110 /* AppDelegate.swift */,
-				84365FE31B505743000817F2 /* otodoios-Bridging-Header.h */,
-				84365FE11B505743000817F2 /* M13Checkbox.h */,
-				84365FE21B505743000817F2 /* M13Checkbox.m */,
 				840591D01B503405007BF110 /* ViewController.swift */,
 				84E7A8BC1B52F3D400ED5703 /* Colors.swift */,
 				84365FDF1B505478000817F2 /* TodoCell.swift */,
@@ -157,12 +153,20 @@
 		840591CC1B503405007BF110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E7A8CE1B53BB6F00ED5703 /* addTodoIcon.png */,
+				84E7A8CF1B53BB6F00ED5703 /* backIcon.png */,
+				84E7A8D01B53BB6F00ED5703 /* done.png */,
 				84DC0C4A1B51929E001916FA /* addTodoIcon.png */,
+				84E7A8BE1B53BAE300ED5703 /* M13Checkbox.h */,
+				84E7A8BF1B53BAE300ED5703 /* M13Checkbox.m */,
+				84E7A8C01B53BAE300ED5703 /* OpenSans-Light.ttf */,
+				84E7A8C11B53BAE300ED5703 /* OpenSans-Regular.ttf */,
+				84E7A8C21B53BAE300ED5703 /* OpenSans-Semibold.ttf */,
+				84E7A8C31B53BAE300ED5703 /* otodoios-Bridging-Header.h */,
+				84E7A8C41B53BAE300ED5703 /* ResponseCollectionSerializable.swift */,
+				84E7A8C51B53BAE300ED5703 /* ResponseObjectSerializable.swift */,
 				84DC0C4B1B51929E001916FA /* backIcon.png */,
 				84DC0C4C1B51929E001916FA /* done.png */,
-				84365FD91B50529B000817F2 /* OpenSans-Light.ttf */,
-				84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */,
-				84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */,
 				840591CD1B503405007BF110 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -268,14 +272,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DC0C4D1B51929E001916FA /* addTodoIcon.png in Resources */,
-				84DC0C4E1B51929E001916FA /* backIcon.png in Resources */,
-				84DC0C4F1B51929E001916FA /* done.png in Resources */,
-				84365FDE1B50529B000817F2 /* OpenSans-Semibold.ttf in Resources */,
-				84365FDD1B50529B000817F2 /* OpenSans-Regular.ttf in Resources */,
-				840591D41B503405007BF110 /* Main.storyboard in Resources */,
-				840591D91B503405007BF110 /* LaunchScreen.xib in Resources */,
-				84365FDC1B50529B000817F2 /* OpenSans-Light.ttf in Resources */,
+				84E7A8C81B53BAE300ED5703 /* OpenSans-Light.ttf in Resources */,
+				84E7A8D21B53BB6F00ED5703 /* backIcon.png in Resources */,
+				84E7A8D11B53BB6F00ED5703 /* addTodoIcon.png in Resources */,
+				84E7A8D31B53BB6F00ED5703 /* done.png in Resources */,
+				84E7A8CA1B53BAE300ED5703 /* OpenSans-Semibold.ttf in Resources */,
+				84E7A8C91B53BAE300ED5703 /* OpenSans-Regular.ttf in Resources */,
 				840591D61B503405007BF110 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,16 +345,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EDE7011B5133110009B3C7 /* Project.swift in Sources */,
-				84365FE41B505743000817F2 /* M13Checkbox.m in Sources */,
 				84EDE6FF1B5133040009B3C7 /* Todo.swift in Sources */,
+				84E7A8C71B53BAE300ED5703 /* M13Checkbox.m in Sources */,
 				840591D11B503405007BF110 /* ViewController.swift in Sources */,
 				84EDE6F91B512DB70009B3C7 /* AddTodoController.swift in Sources */,
 				84EDE6FB1B512F300009B3C7 /* NewTaskCell.swift in Sources */,
 				84E7A8BD1B52F3D400ED5703 /* Colors.swift in Sources */,
-				84EA13AC1B526C50008493C4 /* ResponseObjectSerializable.swift in Sources */,
+				84E7A8CB1B53BAE300ED5703 /* ResponseCollectionSerializable.swift in Sources */,
 				84365FE01B505478000817F2 /* TodoCell.swift in Sources */,
-				84EA13AB1B526C50008493C4 /* ResponseCollectionSerializable.swift in Sources */,
 				840591CF1B503405007BF110 /* AppDelegate.swift in Sources */,
+				84E7A8CC1B53BAE300ED5703 /* ResponseObjectSerializable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +485,7 @@
 				INFOPLIST_FILE = Oblako/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Downloads/otodoios-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Desktop/Oblako/Oblako/otodoios-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -495,7 +497,7 @@
 				INFOPLIST_FILE = Oblako/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Downloads/otodoios-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Desktop/Oblako/Oblako/otodoios-Bridging-Header.h";
 			};
 			name = Release;
 		};
