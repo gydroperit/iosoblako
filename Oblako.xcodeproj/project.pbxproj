@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12DFCD39A6AAB1CEC013384F /* Pods_Oblako.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E394DEAF1F5DE4A5908DC563 /* Pods_Oblako.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		840591CF1B503405007BF110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840591CE1B503405007BF110 /* AppDelegate.swift */; };
 		840591D11B503405007BF110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840591D01B503405007BF110 /* ViewController.swift */; };
 		840591D41B503405007BF110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840591D21B503405007BF110 /* Main.storyboard */; };
@@ -18,6 +19,17 @@
 		84365FDE1B50529B000817F2 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */; };
 		84365FE01B505478000817F2 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84365FDF1B505478000817F2 /* TodoCell.swift */; };
 		84365FE41B505743000817F2 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84365FE21B505743000817F2 /* M13Checkbox.m */; };
+		84DC0C4D1B51929E001916FA /* addTodoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC0C4A1B51929E001916FA /* addTodoIcon.png */; };
+		84DC0C4E1B51929E001916FA /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC0C4B1B51929E001916FA /* backIcon.png */; };
+		84DC0C4F1B51929E001916FA /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC0C4C1B51929E001916FA /* done.png */; };
+		84E7A8BD1B52F3D400ED5703 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7A8BC1B52F3D400ED5703 /* Colors.swift */; };
+		84EA13AB1B526C50008493C4 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA13A91B526C50008493C4 /* ResponseCollectionSerializable.swift */; };
+		84EA13AC1B526C50008493C4 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */; };
+		84EDE6F91B512DB70009B3C7 /* AddTodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */; };
+		84EDE6FB1B512F300009B3C7 /* NewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */; };
+		84EDE6FD1B512F610009B3C7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FC1B512F610009B3C7 /* CategoryCell.swift */; };
+		84EDE6FF1B5133040009B3C7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FE1B5133040009B3C7 /* Todo.swift */; };
+		84EDE7011B5133110009B3C7 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE7001B5133110009B3C7 /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,20 @@
 		84365FE11B505743000817F2 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M13Checkbox.h; path = ../../../Downloads/M13Checkbox.h; sourceTree = "<group>"; };
 		84365FE21B505743000817F2 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13Checkbox.m; path = ../../../Downloads/M13Checkbox.m; sourceTree = "<group>"; };
 		84365FE31B505743000817F2 /* otodoios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "otodoios-Bridging-Header.h"; path = "../../../Downloads/otodoios-Bridging-Header.h"; sourceTree = "<group>"; };
+		84DC0C4A1B51929E001916FA /* addTodoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addTodoIcon.png; path = ../../../Downloads/todoimages/addTodoIcon.png; sourceTree = "<group>"; };
+		84DC0C4B1B51929E001916FA /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backIcon.png; path = ../../../Downloads/todoimages/backIcon.png; sourceTree = "<group>"; };
+		84DC0C4C1B51929E001916FA /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done.png; path = ../../../Downloads/todoimages/done.png; sourceTree = "<group>"; };
+		84E7A8BC1B52F3D400ED5703 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		84EA13A91B526C50008493C4 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseCollectionSerializable.swift; path = ../../../Downloads/ResponseCollectionSerializable.swift; sourceTree = "<group>"; };
+		84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseObjectSerializable.swift; path = ../../../Downloads/ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoController.swift; sourceTree = "<group>"; };
+		84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskCell.swift; sourceTree = "<group>"; };
+		84EDE6FC1B512F610009B3C7 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		84EDE6FE1B5133040009B3C7 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		84EDE7001B5133110009B3C7 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		B21CB977C5A41B4867A1BE0F /* Pods-Oblako.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oblako.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oblako/Pods-Oblako.release.xcconfig"; sourceTree = "<group>"; };
+		D447990EBF8F958DF0106172 /* Pods-Oblako.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oblako.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oblako/Pods-Oblako.debug.xcconfig"; sourceTree = "<group>"; };
+		E394DEAF1F5DE4A5908DC563 /* Pods_Oblako.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oblako.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DFCD39A6AAB1CEC013384F /* Pods_Oblako.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +95,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4AADF301B885FB64D68BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E394DEAF1F5DE4A5908DC563 /* Pods_Oblako.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FD20FE2AA3C58A28D08FFB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D447990EBF8F958DF0106172 /* Pods-Oblako.debug.xcconfig */,
+				B21CB977C5A41B4867A1BE0F /* Pods-Oblako.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		840591C01B503405007BF110 = {
 			isa = PBXGroup;
 			children = (
 				840591CB1B503405007BF110 /* Oblako */,
 				840591E11B503405007BF110 /* OblakoTests */,
 				840591CA1B503405007BF110 /* Products */,
+				2FD20FE2AA3C58A28D08FFB9 /* Pods */,
+				0C4AADF301B885FB64D68BF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,13 +135,21 @@
 		840591CB1B503405007BF110 /* Oblako */ = {
 			isa = PBXGroup;
 			children = (
+				84EA13A91B526C50008493C4 /* ResponseCollectionSerializable.swift */,
+				84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */,
 				840591CE1B503405007BF110 /* AppDelegate.swift */,
 				84365FE31B505743000817F2 /* otodoios-Bridging-Header.h */,
 				84365FE11B505743000817F2 /* M13Checkbox.h */,
 				84365FE21B505743000817F2 /* M13Checkbox.m */,
 				840591D01B503405007BF110 /* ViewController.swift */,
+				84E7A8BC1B52F3D400ED5703 /* Colors.swift */,
 				84365FDF1B505478000817F2 /* TodoCell.swift */,
+				84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */,
+				84EDE6FC1B512F610009B3C7 /* CategoryCell.swift */,
 				840591D21B503405007BF110 /* Main.storyboard */,
+				84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */,
+				84EDE7001B5133110009B3C7 /* Project.swift */,
+				84EDE6FE1B5133040009B3C7 /* Todo.swift */,
 				840591D51B503405007BF110 /* Images.xcassets */,
 				840591D71B503405007BF110 /* LaunchScreen.xib */,
 				840591CC1B503405007BF110 /* Supporting Files */,
@@ -106,6 +160,9 @@
 		840591CC1B503405007BF110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84DC0C4A1B51929E001916FA /* addTodoIcon.png */,
+				84DC0C4B1B51929E001916FA /* backIcon.png */,
+				84DC0C4C1B51929E001916FA /* done.png */,
 				84365FD91B50529B000817F2 /* OpenSans-Light.ttf */,
 				84365FDA1B50529B000817F2 /* OpenSans-Regular.ttf */,
 				84365FDB1B50529B000817F2 /* OpenSans-Semibold.ttf */,
@@ -138,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840591E81B503405007BF110 /* Build configuration list for PBXNativeTarget "Oblako" */;
 			buildPhases = (
+				D72746345E1413A5CDE958D7 /* Check Pods Manifest.lock */,
 				840591C51B503405007BF110 /* Sources */,
 				840591C61B503405007BF110 /* Frameworks */,
 				840591C71B503405007BF110 /* Resources */,
+				87EB3E6873BD47D74BEC1B60 /* Embed Pods Frameworks */,
+				A8F0E7576F7115DD9F745CB0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DC0C4D1B51929E001916FA /* addTodoIcon.png in Resources */,
+				84DC0C4E1B51929E001916FA /* backIcon.png in Resources */,
+				84DC0C4F1B51929E001916FA /* done.png in Resources */,
 				84365FDE1B50529B000817F2 /* OpenSans-Semibold.ttf in Resources */,
 				84365FDD1B50529B000817F2 /* OpenSans-Regular.ttf in Resources */,
 				840591D41B503405007BF110 /* Main.storyboard in Resources */,
@@ -229,14 +292,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87EB3E6873BD47D74BEC1B60 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oblako/Pods-Oblako-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F0E7576F7115DD9F745CB0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oblako/Pods-Oblako-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72746345E1413A5CDE958D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840591C51B503405007BF110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EDE7011B5133110009B3C7 /* Project.swift in Sources */,
 				84365FE41B505743000817F2 /* M13Checkbox.m in Sources */,
+				84EDE6FF1B5133040009B3C7 /* Todo.swift in Sources */,
 				840591D11B503405007BF110 /* ViewController.swift in Sources */,
+				84EDE6F91B512DB70009B3C7 /* AddTodoController.swift in Sources */,
+				84EDE6FD1B512F610009B3C7 /* CategoryCell.swift in Sources */,
+				84EDE6FB1B512F300009B3C7 /* NewTaskCell.swift in Sources */,
+				84E7A8BD1B52F3D400ED5703 /* Colors.swift in Sources */,
+				84EA13AC1B526C50008493C4 /* ResponseObjectSerializable.swift in Sources */,
 				84365FE01B505478000817F2 /* TodoCell.swift in Sources */,
+				84EA13AB1B526C50008493C4 /* ResponseCollectionSerializable.swift in Sources */,
 				840591CF1B503405007BF110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +481,7 @@
 		};
 		840591E91B503405007BF110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D447990EBF8F958DF0106172 /* Pods-Oblako.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oblako/Info.plist;
@@ -373,6 +493,7 @@
 		};
 		840591EA1B503405007BF110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21CB977C5A41B4867A1BE0F /* Pods-Oblako.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oblako/Info.plist;
