@@ -50,12 +50,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         var cell:TodoCell=tableView.dequeueReusableCellWithIdentifier("reuseCell") as! TodoCell
         cell.setName(projects[indexPath.section].todos[indexPath.row].text, cellId: projects[indexPath.section].todos[indexPath.row].id)
         cell.changeStriked(projects[indexPath.section].todos[indexPath.row].isCompleted)
-        if( projects[indexPath.section].todos[indexPath.row].isCompleted ){
-         //setCheckState не работает
-            if(cell.subviews.last?.checkState.value !=  M13CheckboxStateChecked.value){
-                cell.subviews.last?.toggleCheckState()
-            }
-        }
+        let varrr = cell.subviews.last as! M13Checkbox
+        if( projects[indexPath.section].todos[indexPath.row].isCompleted != (varrr.checkState.value == M13CheckboxStateChecked.value)){
+            varrr.toggleCheckState()
+            println(indexPath.row)
+       }
         return cell
     }
     

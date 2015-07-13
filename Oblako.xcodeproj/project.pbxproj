@@ -27,7 +27,6 @@
 		84EA13AC1B526C50008493C4 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */; };
 		84EDE6F91B512DB70009B3C7 /* AddTodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */; };
 		84EDE6FB1B512F300009B3C7 /* NewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */; };
-		84EDE6FD1B512F610009B3C7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FC1B512F610009B3C7 /* CategoryCell.swift */; };
 		84EDE6FF1B5133040009B3C7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE6FE1B5133040009B3C7 /* Todo.swift */; };
 		84EDE7011B5133110009B3C7 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE7001B5133110009B3C7 /* Project.swift */; };
 /* End PBXBuildFile section */
@@ -68,7 +67,6 @@
 		84EA13AA1B526C50008493C4 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseObjectSerializable.swift; path = ../../../Downloads/ResponseObjectSerializable.swift; sourceTree = "<group>"; };
 		84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoController.swift; sourceTree = "<group>"; };
 		84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskCell.swift; sourceTree = "<group>"; };
-		84EDE6FC1B512F610009B3C7 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		84EDE6FE1B5133040009B3C7 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		84EDE7001B5133110009B3C7 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		B21CB977C5A41B4867A1BE0F /* Pods-Oblako.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oblako.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oblako/Pods-Oblako.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 				84E7A8BC1B52F3D400ED5703 /* Colors.swift */,
 				84365FDF1B505478000817F2 /* TodoCell.swift */,
 				84EDE6FA1B512F300009B3C7 /* NewTaskCell.swift */,
-				84EDE6FC1B512F610009B3C7 /* CategoryCell.swift */,
 				840591D21B503405007BF110 /* Main.storyboard */,
 				84EDE6F81B512DB70009B3C7 /* AddTodoController.swift */,
 				84EDE7001B5133110009B3C7 /* Project.swift */,
@@ -350,7 +347,6 @@
 				84EDE6FF1B5133040009B3C7 /* Todo.swift in Sources */,
 				840591D11B503405007BF110 /* ViewController.swift in Sources */,
 				84EDE6F91B512DB70009B3C7 /* AddTodoController.swift in Sources */,
-				84EDE6FD1B512F610009B3C7 /* CategoryCell.swift in Sources */,
 				84EDE6FB1B512F300009B3C7 /* NewTaskCell.swift in Sources */,
 				84E7A8BD1B52F3D400ED5703 /* Colors.swift in Sources */,
 				84EA13AC1B526C50008493C4 /* ResponseObjectSerializable.swift in Sources */,
