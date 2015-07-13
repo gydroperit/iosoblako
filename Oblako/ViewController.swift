@@ -16,11 +16,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
                 var view = UIView()
-        var label = UILabel()
+        var label = myUILabel()
         
         view.backgroundColor = Colors.gray
-        label.text="    " + projects[section].title.uppercaseString
-        label.setTranslatesAutoresizingMaskIntoConstraints(false)
+        label.text=projects[section].title.uppercaseString
+        label.frame = CGRectMake(0, 0, self.view.bounds.width,50)
         let views = ["label": label,"view": view]
         label.font = UIFont(name: "OpenSans-Semibold",size: 12)
         view.addSubview(label)

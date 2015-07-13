@@ -45,22 +45,13 @@ class AddTodoController: UIViewController, UITableViewDelegate,UITableViewDataSo
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         var view = UIView()
-        var label = UILabel()
+        var label = myUILabel()
         
         view.backgroundColor = Colors.gray
-        if section == 0{
-            label.text="    Название задачи"
-        }
-        else
-        {
-            label.text="    Категория"
-        }
-        label.setTranslatesAutoresizingMaskIntoConstraints(false)
-        let views = ["label": label,"view": view]
-        label.font = UIFont(name: "OpenSans",size: 15)
+        label.text = section == 0 ? "НАЗВАНИЕ ЗАДАЧИ" : "КАТЕГОРИЯ"
+        label.frame = CGRectMake(0, 0, self.view.bounds.width,50)
+        label.font = UIFont(name: "OpenSans-Semibold",size: 12)
         view.addSubview(label)
-        var verticalLayoutContraint = NSLayoutConstraint(item: label, attribute: .CenterY, relatedBy: .Equal, toItem: view, attribute: .CenterY, multiplier: 1, constant: 0)
-        view.addConstraint(verticalLayoutContraint)
         //separators
         var separator1 = UIView(frame: CGRectMake(0, 0, tableView.bounds.width,1))
         var separator2 = UIView(frame: CGRectMake(0, 50,tableView.bounds.width,1))

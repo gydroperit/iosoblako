@@ -11,7 +11,6 @@ import UIKit
 class NewTaskCell: UITableViewCell {
 
     @IBOutlet weak var textField: UITextField!
-    var todoName =  String()
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,7 +18,7 @@ class NewTaskCell: UITableViewCell {
         //properties
         textField.layer.borderColor = Colors.gray.CGColor
         textField.layer.borderWidth = 1.0
-        textField.frame = CGRectMake(10.0,10.0,10.0,10.0)
+        textField.frame = CGRectMake(10.0,10.0,self.bounds.width,15.0)
        // Initialization code
     }
 
